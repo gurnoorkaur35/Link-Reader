@@ -1,0 +1,11 @@
+const axios = require('axios');
+
+axios
+    .get('https://www.naukri.com/job-listings-senior-software-engineer-qa-boston-consulting-group-bangalore-bengaluru-4-to-6-years-251122502571?src=seo_srp&sid=16695402823034253&xp=2&px=1 , https://www.naukri.com/job-listings-senior-software-engineer-veritas-software-technologies-india-pvt-ltd-pune-0-to-2-years-251122910244?src=seo_srp&sid=16695402823034253&xp=1&px=1)')
+    .then((response) => {
+        //HTML content is stored in the data-field
+        console.log(response.data)
+    })
+    .catch((error) => {
+        console.error(error)
+    });
