@@ -1,17 +1,18 @@
 {
-  "name": "pdf-reader",
+  "name": "linkreader",
   "version": "1.0.0",
-  "description": "",
-  "main": "PDF-Reader.js",
+  "main": "LinkReader1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Gurnoor Kaur",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "express-fileupload": "^1.4.0",
-    "pdf-parse": "^1.1.1"
-  }
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^19.3.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "keywords": [],
+  "description": ""
 }
